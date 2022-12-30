@@ -14,7 +14,7 @@ pip install font_fjallaone
 ## Usage
 
 ```python
-from font_fjallaone import FjallaOne
+import font_fjallaone as FjallaOne
 ```
 
 ## Release Management
