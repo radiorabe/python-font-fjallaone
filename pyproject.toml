@@ -2,7 +2,8 @@
 name = "font-fjallaone"
 version = "0.0.0" # 0.0.0 placeholder is replaced on release
 description = "Fjalla One from from Sorkin Type as distributed by Google Fonts"
-authors = ["IT-Reaktion <it@rabe.ch>"]
+authors = ["RaBe IT-Reaktion <it@rabe.ch>"]
+readme = "README.md"
 packages = [
     { include = "font_fjallaone"},
 ]
