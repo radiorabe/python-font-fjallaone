@@ -16,7 +16,7 @@ fjallaone = "font_fjallaone:font_files"
 python = "^3.9"
 
 [tool.poetry.dev-dependencies]
-pytest = "^7.4.2"
+pytest = "^7.4.3"
 pytest-cov = "^4.1.0"
 wheel = "^0.41.2"
 flake8 = "^6.1.0"
