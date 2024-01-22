@@ -28,7 +28,7 @@ black = "^23.12.1"
 isort = "^5.13.2"
 pytest-mypy = "^0.10.3"
 pytest-pylint = "^0.21.0"
-pytest-random-order = "^1.1.0"
+pytest-random-order = "^1.1.1"
 
 [tool.isort]
 line_length = 120
