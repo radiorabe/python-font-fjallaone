@@ -18,7 +18,7 @@ python = "^3.9"
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.1"
 pytest-cov = "^4.1.0"
-wheel = "^0.42.0"
+wheel = ">=0.42,<0.44"
 flake8 = "^7.0.0"
 flake8-docstrings = "^1.7.0"
 flake8-string-format = "^0.3.0"
