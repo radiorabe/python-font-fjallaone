@@ -1,18 +1,14 @@
 """Fjalla One from from Sorkin Type as distributed by Google Fonts."""
 
-import glob
-import os
+from pathlib import Path
 
-font_directory = os.path.join(os.path.abspath(os.path.dirname(__file__)), "files")
+font_directory = Path(__file__).parent.resolve() / "files"
 
 font_files = {}
 
-for font in list(glob.glob(os.path.join(font_directory, "*.ttf"))):
+for font in list(font_directory.glob("*.ttf")):
     font_name = (
-        os.path.basename(font)
-        .replace(".ttf", "")
-        .replace("-Regular", "")
-        .replace("-", "")
+        Path(font).name.replace(".ttf", "").replace("-Regular", "").replace("-", "")
     )
     font_files[font_name] = font
     globals()[font_name] = font
