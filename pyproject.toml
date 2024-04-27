@@ -13,22 +13,19 @@ include = ["font_fjallaone/files"]
 fjallaone = "font_fjallaone:font_files"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.11"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.0.1"
-pytest-cov = ">=4.1,<6.0"
-wheel = ">=0.42,<0.44"
 flake8 = "^7.0.0"
 flake8-docstrings = "^1.7.0"
 flake8-string-format = "^0.3.0"
 flake8-tuple = "^0.4.1"
 freezegun = "^1.4.0"
-black = "^24.2.0"
-isort = "^5.13.2"
+pytest = "^8.0.1"
+pytest-cov = ">=4.1,<6.0"
 pytest-mypy = "^0.10.3"
-pytest-pylint = "^0.21.0"
 pytest-random-order = "^1.1.1"
+pytest-ruff = "^0.3.1"
 mkdocs = "^1.5.3"
 mkdocs-material = "^9.5.10"
 mkdocs-gen-files = "^0.5.0"
@@ -36,17 +33,12 @@ mkdocs-literate-nav = "^0.6.1"
 mkdocs-section-index = "^0.3.8"
 mkdocs-autorefs = ">=0.5,<1.1"
 mkdocstrings = {extras = ["python"], version = "^0.24.0"}
-
-[tool.isort]
-line_length = 120
-profile = "black"
-
-[tool.pylint.format]
-max-line-lenth = 120
+wheel = ">=0.42,<0.44"
+ruff = "^0.4.2"
 
 [tool.pytest.ini_options]
 minversion = "7.2"
-addopts = "-ra -q --random-order --doctest-glob='*.md' --doctest-modules --cov=font_fjallaone --cov-fail-under=100 --pylint --mypy --ignore=docs/"
+addopts = "-ra -q --random-order --doctest-glob='*.md' --doctest-modules --cov=font_fjallaone --cov-fail-under=100 --ruff --mypy --ignore=docs/"
 filterwarnings = [
     "ignore::DeprecationWarning:pylint"
 ]
