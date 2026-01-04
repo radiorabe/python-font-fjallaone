@@ -10,7 +10,3 @@ updates:
       actions:
         patterns:
           - "*"
-  - package-ecosystem: pip
-    directory: /
-    schedule:
-      interval: daily
