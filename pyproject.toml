@@ -34,7 +34,7 @@ mkdocs-section-index = "^0.3.8"
 mkdocs-autorefs = ">=0.5,<1.5"
 mkdocstrings = {extras = ["python"], version = ">=0.24,<1.1"}
 wheel = ">=0.42,<0.47"
-ruff = ">=0.4.2,<0.15.0"
+ruff = ">=0.4.2,<0.16.0"
 
 [tool.pytest]
 minversion = "7.2"
