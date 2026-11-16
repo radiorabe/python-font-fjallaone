@@ -9,6 +9,7 @@ ignore = [
 	"D203",    # we prefer blank-line-before-class (D211) for black compat
 	"D213",    # we prefer multi-line-summary-first-line (D212)
 	"ISC001",  # removed due to conflict with formatter
+	"CPY001"   # don't add copyright headeres in all files
 ]
 
 [lint.per-file-ignores]
