@@ -1030,14 +1030,14 @@ testing = ["process-tests", "pytest-xdist", "virtualenv"]
 
 [[package]]
 name = "pytest-mypy"
-version = "1.0.1"
+version = "1.1.0"
 description = "A Pytest Plugin for Mypy"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "pytest_mypy-1.0.1-py3-none-any.whl", hash = "sha256:ad7133c9b92c802e032f2596590ebede7eea7c418e61d60d5cdd571b55c72056"},
-    {file = "pytest_mypy-1.0.1.tar.gz", hash = "sha256:3f5fcaff75c80dccc6b68cf5ecc28e1bbe71e95309469eb7a28bf408ce55c074"},
+    {file = "pytest_mypy-1.1.0-py3-none-any.whl", hash = "sha256:4f0e3cc7be0825188a427811a8fd0fd83afc010b0ea167a273180b81fbd7d8b5"},
+    {file = "pytest_mypy-1.1.0.tar.gz", hash = "sha256:b9f4237c0311eec507c48986dde2d776f399c98fdb92dae5c93f96c19bcae0e4"},
 ]
 
 [package.dependencies]
@@ -1335,4 +1335,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=77)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "15c63b063536ed5c4b99c82049d17e404b3edd6decf72d6f119604cf95e64a48"
+content-hash = "8ab7f4341f29f762b5e6079acd73d3d07d50cdaf6ce8ef2f9b2c1496a04d9ccf"
